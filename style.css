@@ -1,0 +1,55 @@
+body{
+    background-image: url('download.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.clock{
+    display: flex;
+    justify-content: center;    
+}
+#hrs{
+    background-color: white;
+    color: black;
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+    margin: 0 10px;
+    font-size: 60px;
+    border-radius: 50%;
+}
+#mins{
+    background-color: white;
+    color: black;
+    /* margin-right: 10px; */
+    margin: 0 10px;
+    font-size: 60px;
+    border-radius: 50%;
+}
+#secs{
+    background-color: white;
+    color: black;
+    /* margin-right: 10px; */
+    margin: 0 10px;
+    font-size: 60px;
+    border-radius: 60%;
+}
+#ampm{
+    font-size: 30px;
+    color: red;
+    padding-top: 20px;
+    border-radius: 25px 25px;
+}
+.hourVal{
+    /* background-color: black; */
+    margin-right: 10px;
+    /* border: 1px solid black; */
+}
+.minVal{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid black; */
+}
+.secVal{
+    margin-left: 10px;
+    /* border: 1px solid black; */
+}
